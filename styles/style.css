@@ -1,0 +1,105 @@
+.body {
+  min-width: 1100px;
+  max-width: 1600px;
+  font-family: "Inter", Arial, sans-serif;
+  font-family: "";
+  font-size: 16px;
+  line-height: 20px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 26px;
+}
+.nav__links {
+  position: relative;
+  justify-content: space-between;
+  line-height: 12px;
+  padding-right: 30px;
+  padding-top: 26px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.logo {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.link {
+  font-family: "Inter";
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+.header {
+  background-color: #fff;
+  min-height: 700px;
+  max-height: 800px;
+  background-image: url("background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header__title {
+  position: absolute;
+  margin-top: 108px;
+  margin-left: 83px;
+}
+.header__description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 272px;
+}
+.header__image {
+  position: absolute;
+  margin-left: 403px;
+  margin-top: 0;
+  width: 646px;
+  height: 568px;
+  margin-left: 805px;
+  margin-top: 0px;
+}
+.header__info {
+  display: flex;
+  position: relative;
+  margin-top: 549px;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-bottom: 40px;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 5px;
+  color: #6f6f6f;
+}
+.title1 {
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #ff976b;
+}
+.title2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+}
