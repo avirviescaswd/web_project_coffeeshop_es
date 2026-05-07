@@ -23,9 +23,13 @@
             alt="logo Triple Espresso"
           />
         </div>
-        <div class="nav__links">
-          <a class="link" href="#reservar" target="_blank">Reservar una mesa</a>
-          <a class="link" href="#contacto" target="_blank">Contactos</a>
+        <div class="nav__box">
+          <a class="nav__box-link" href="#reservar" target="_blank"
+            >Reservar una mesa</a
+          >
+          <a class="nav__box-link" href="#contacto" target="_blank"
+            >Contactos</a
+          >
         </div>
       </nav>
       <div>
@@ -63,7 +67,90 @@
         </div>
       </div>
     </header>
-    <main class="content"></main>
-    <footer class="footer"></footer>
+    <main class="reservation">
+      <div>
+        <img
+          src="./images/background_reservation.svg"
+          alt="reservation"
+          class="reservation__image"
+        />
+      </div>
+      <section class="form__container">
+        <h2 class="form__title">Reservar una mesa</h2>
+        <form class="form">
+          <div class="form__fieldscontainer">
+            <label class="form__label" for="name">Nombre *</label>
+            <input
+              type="text"
+              class="form__input"
+              minlength="10"
+              maxlength="50"
+              id="name"
+              placeholder="Nombre"
+              required
+            />
+            <label class="form__label" for="guest_number"
+              >Número de comensales *</label
+            >
+            <input
+              type="number"
+              class="form__input"
+              min="1"
+              max="8"
+              id="guest_number"
+              placeholder="1-8"
+              required
+            />
+            <label class="form__label" for="time&date">Fecha y hora *</label>
+            <input type="date" class="form__input" id="time&date" required />
+            <label class="form__label" for="email"
+              >Tu correo electrónico *</label
+            >
+            <input
+              type="email"
+              class="form__input"
+              id="email"
+              placeholder="email@email.com"
+              required
+            />
+          </div>
+            <button type="submit" class="form__btn">Reservar una mesa</button>
+          </div>
+          <div class="accept">
+            <input type="checkbox" class="form_checkbox" required />
+            <label class="form__label">Acepto los términos de uso</label>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="footer__content">
+        <div>
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="logo Triple Espresso"
+            class="footer__logo"
+          />
+        </div>
+        <div class="footer__links">
+          <p class="footer__title">Redes sociales</p>
+          <div class="footer__link_social">
+            <img src="./images/facebook_white.svg" />
+            <a class="footer__link_social-text" href="null" target="_blank"
+              >Facebook</a
+            >
+          </div>
+          <div class="footer__link_social">
+            <img src="./images/instagram_white.svg" />
+            <a class="footer__link_social-text" href="null" target="_blank"
+              >Instagram</a
+            >
+          </div>
+        </div>
+      </section>
+      <div class="copyright">
+        <p class="footer__text">© 2026 Andrés Virviescas</p>
+      </div>
+    </footer>
   </body>
 </html>
