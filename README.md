@@ -17,6 +17,8 @@ HTML , CSS
 
 ## 🔗 Links
 
-[![Github](https://avirviescaswd.newdatastudio.com/img/banner_github_200x60px.jpg)](https://github.com/avirviescaswd?tab=repositories)
+[![GithubPages] (https://avirviescaswd.github.io/web_project_coffeeshop_es/)]
+
+[![Github](https://github.com/avirviescaswd?tab=repositories)
 [![portfolio](https://avirviescaswd.newdatastudio.com/img/banner_portfolio_200x60px.jpg)](https://avirviescaswd.newdatastudio.com/index.html)
 [![linkedin](https://avirviescaswd.newdatastudio.com/img/banner_linkedin_200x60px.jpg)](https://www.linkedin.com/in/avirviescas/)
